@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-02T11:31:51 ICT" name="Regression" finished-at="2024-03-02T11:31:51 ICT" duration-ms="104">
+    <groups>
+    </groups>
+    <test started-at="2024-03-02T11:31:51 ICT" name="android 16" finished-at="2024-03-02T11:31:51 ICT" duration-ms="43">
+      <class name="src.test.authen.login2">
+        <test-method signature="test2()[pri:0, instance:src.test.authen.login2@4c40b76e]" started-at="2024-03-02T11:31:51 ICT" name="test2" finished-at="2024-03-02T11:31:51 ICT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="testPara(java.lang.String)[pri:0, instance:src.test.authen.login2@4c40b76e]" started-at="2024-03-02T11:31:51 ICT" name="testPara" finished-at="2024-03-02T11:31:51 ICT" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[android 16]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPara -->
+      </class> <!-- src.test.authen.login2 -->
+      <class name="src.test.authen.Login">
+        <test-method signature="test()[pri:0, instance:src.test.authen.Login@448ff1a8]" started-at="2024-03-02T11:31:51 ICT" name="test" finished-at="2024-03-02T11:31:51 ICT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- src.test.authen.Login -->
+    </test> <!-- android 16 -->
+    <test started-at="2024-03-02T11:31:51 ICT" name="android 14" finished-at="2024-03-02T11:31:51 ICT" duration-ms="0">
+    </test> <!-- android 14 -->
+    <test started-at="2024-03-02T11:31:51 ICT" name="android 12" finished-at="2024-03-02T11:31:51 ICT" duration-ms="0">
+    </test> <!-- android 12 -->
+  </suite> <!-- Regression -->
+</testng-results>
