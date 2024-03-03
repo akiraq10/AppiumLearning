@@ -10,7 +10,7 @@ import java.net.URL;
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
-public class DriverFactory implements MobileCapabilityTypeEx {
+public class DriverFactory implements MobileCapabilityTypeEx,AppPackage {
 
     public static AppiumDriver getDriver(Platform platform) throws InterruptedException {
         AppiumDriver driver ;
@@ -18,7 +18,7 @@ public class DriverFactory implements MobileCapabilityTypeEx {
         desiredCapabilities.setCapability(PLATFORM_NAME, "android");
         desiredCapabilities.setCapability(AUTOMATION_NAME, "uiautomator2");
         desiredCapabilities.setCapability(UDID, "g8s1");
-        desiredCapabilities.setCapability(APP_PACKAGE, "g8s1");
+        desiredCapabilities.setCapability(APP_PACKAGE, WEBDRIVER_IO);
         desiredCapabilities.setCapability(APP_ACTIVITY, "g8s1");
 
         URL appiumServer = null;
